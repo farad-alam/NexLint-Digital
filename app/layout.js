@@ -48,8 +48,14 @@ export default function RootLayout({ children }) {
         <link rel="canonical" href="https://nexlint.vercel.app" />
         <meta
           name="google-site-verification"
-          content="your-google-site-verification-code"
+          content="ST1Hhm9DearRT78yeK7x1Qr3HHzcw5iUNYSGUguuMGk"
         />
+        <link
+          rel="shortcut icon"
+          href="/nexlint-favicon.jpg"
+          type="image/x-icon"
+        />
+        <link rel="icon" href="/nexlint-favicon.jpg" type="image/x-icon" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
