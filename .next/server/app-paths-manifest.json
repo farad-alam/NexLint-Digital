@@ -1,0 +1,8 @@
+{
+  "/about/page": "app/about/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/services/page": "app/services/page.js",
+  "/blog/website-design-price-bangladesh/page": "app/blog/website-design-price-bangladesh/page.js",
+  "/blog/responsive-web-design-bangladesh/page": "app/blog/responsive-web-design-bangladesh/page.js"
+}

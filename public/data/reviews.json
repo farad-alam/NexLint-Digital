@@ -1,0 +1,44 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Ahmed Hassan",
+      "business": "Hassan Trading Ltd.",
+      "rating": 5,
+      "text": "NexLint Digital transformed our online presence. Our new website increased inquiries by 300% in just 2 months!",
+      "avatar": "AH"
+    },
+    {
+      "id": 2,
+      "name": "Fatima Rahman",
+      "business": "Dhaka Fashion House",
+      "rating": 5,
+      "text": "Professional team, excellent communication, and delivered exactly what we needed. Highly recommend their e-commerce solutions!",
+      "avatar": "FR"
+    },
+    {
+      "id": 3,
+      "name": "Mohammad Ali",
+      "business": "Ali Motors",
+      "rating": 5,
+      "text": "Fast, reliable, and cost-effective. They understood our local market needs perfectly. Great job on our car dealership website!",
+      "avatar": "MA"
+    },
+    {
+      "id": 4,
+      "name": "Nasir Ahmed",
+      "business": "Rajshahi Restaurant",
+      "rating": 5,
+      "text": "Amazing work on our restaurant website! Online orders increased significantly. The team is very responsive and professional.",
+      "avatar": "NA"
+    },
+    {
+      "id": 5,
+      "name": "Rashida Begum",
+      "business": "Begum Textiles",
+      "rating": 5,
+      "text": "Excellent service and support. They created a beautiful website that perfectly represents our textile business. Very satisfied!",
+      "avatar": "RB"
+    }
+  ]
+}

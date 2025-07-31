@@ -1,0 +1,112 @@
+{
+  "services": [
+    {
+      "id": "web-development",
+      "title": "Custom Web Development",
+      "icon": "Code",
+      "shortDescription": "Build powerful, scalable websites with modern technologies",
+      "fullDescription": "Our expert developers create custom websites tailored to your business needs using the latest technologies like React, Next.js, and Node.js.",
+      "features": [
+        "Custom PHP/Laravel Development",
+        "React & Next.js Applications", 
+        "Database Design & Integration",
+        "API Development & Integration",
+        "Performance Optimization",
+        "Security Implementation"
+      ],
+      "startingPrice": "৳25,000",
+      "priceRange": "৳25,000 - ৳200,000",
+      "deliveryTime": "2-8 weeks"
+    },
+    {
+      "id": "responsive-design",
+      "title": "Responsive Web Design",
+      "icon": "Smartphone",
+      "shortDescription": "Mobile-first designs that work perfectly on all devices",
+      "fullDescription": "Create stunning, mobile-responsive websites that provide excellent user experience across all devices and screen sizes.",
+      "features": [
+        "Mobile-First Design Approach",
+        "Cross-Browser Compatibility",
+        "Touch-Friendly Interface",
+        "Fast Loading Times",
+        "SEO-Optimized Structure",
+        "User Experience Focus"
+      ],
+      "startingPrice": "৳15,000",
+      "priceRange": "৳15,000 - ৳80,000",
+      "deliveryTime": "1-4 weeks"
+    },
+    {
+      "id": "ecommerce",
+      "title": "E-commerce Solutions",
+      "icon": "ShoppingCart",
+      "shortDescription": "Complete online stores with payment integration",
+      "fullDescription": "Build comprehensive e-commerce platforms with secure payment gateways, inventory management, and customer relationship tools.",
+      "features": [
+        "WooCommerce Development",
+        "Custom E-commerce Platforms",
+        "Payment Gateway Integration",
+        "Inventory Management",
+        "Order Management System",
+        "Customer Portal"
+      ],
+      "startingPrice": "৳50,000",
+      "priceRange": "৳50,000 - ৳300,000",
+      "deliveryTime": "4-12 weeks"
+    },
+    {
+      "id": "seo-optimization",
+      "title": "SEO & Digital Marketing",
+      "icon": "TrendingUp",
+      "shortDescription": "Boost your online visibility and attract more customers",
+      "fullDescription": "Comprehensive SEO services to improve your search rankings and drive organic traffic to your website.",
+      "features": [
+        "On-Page SEO Optimization",
+        "Technical SEO Audit",
+        "Keyword Research & Strategy",
+        "Content Marketing",
+        "Local SEO for Bangladesh",
+        "Google Analytics Setup"
+      ],
+      "startingPrice": "৳10,000",
+      "priceRange": "৳10,000 - ৳50,000/month",
+      "deliveryTime": "Ongoing"
+    },
+    {
+      "id": "maintenance",
+      "title": "Website Maintenance",
+      "icon": "Settings",
+      "shortDescription": "Keep your website secure, updated, and performing optimally",
+      "fullDescription": "Ongoing website maintenance services to ensure your site stays secure, updated, and performing at its best.",
+      "features": [
+        "Security Updates & Monitoring",
+        "Content Updates",
+        "Performance Optimization",
+        "Backup Management",
+        "Bug Fixes & Troubleshooting",
+        "24/7 Technical Support"
+      ],
+      "startingPrice": "৳5,000",
+      "priceRange": "৳5,000 - ৳25,000/month",
+      "deliveryTime": "Ongoing"
+    },
+    {
+      "id": "wordpress",
+      "title": "WordPress Development",
+      "icon": "Globe",
+      "shortDescription": "Custom WordPress themes and plugin development",
+      "fullDescription": "Specialized WordPress development services including custom themes, plugins, and complete WordPress solutions.",
+      "features": [
+        "Custom Theme Development",
+        "Plugin Development",
+        "WordPress Optimization",
+        "Migration Services",
+        "Multisite Setup",
+        "WooCommerce Integration"
+      ],
+      "startingPrice": "৳20,000",
+      "priceRange": "৳20,000 - ৳150,000",
+      "deliveryTime": "2-6 weeks"
+    }
+  ]
+}

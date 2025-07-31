@@ -1,0 +1,87 @@
+import './globals.css'
+import { Inter, Poppins } from 'next/font/google'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const poppins = Poppins({ 
+  subsets: ['latin'], 
+  weight: ['300', '400', '500', '600', '700', '800'],
+  variable: '--font-poppins'
+})
+
+export const metadata = {
+  title: 'NexLint Digital - We Build Websites That Work for You | Web Development Bangladesh',
+  description: 'Professional web development services in Bangladesh. Custom websites, e-commerce solutions, SEO optimization. Get a modern website that drives results. Contact us today!',
+  keywords: 'web development Bangladesh, website design Bangladesh, responsive web design, e-commerce website, SEO optimization, Rajshahi web developer',
+  author: 'NexLint Digital',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'NexLint Digital - We Build Websites That Work for You',
+    description: 'Professional web development services in Bangladesh. Custom websites, e-commerce solutions, SEO optimization.',
+    type: 'website',
+    url: 'https://nexlintdigital.com',
+    image: '/images/og-image.jpg',
+    siteName: 'NexLint Digital'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'NexLint Digital - We Build Websites That Work for You',
+    description: 'Professional web development services in Bangladesh.',
+    image: '/images/og-image.jpg'
+  }
+}
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
+
+
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en" className="dark">
+      <head>
+        <link rel="canonical" href="https://nexlintdigital.com" />
+        <meta name="google-site-verification" content="your-google-site-verification-code" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "NexLint Digital",
+              "url": "https://nexlintdigital.com",
+              "logo": "https://nexlintdigital.com/logo.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+8801575061066",
+                "contactType": "customer service",
+                "areaServed": "BD",
+                "availableLanguage": ["English", "Bengali"]
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Rajshahi",
+                "addressCountry": "BD"
+              },
+              "sameAs": [
+                "https://facebook.com/nexlintdigital",
+                "https://linkedin.com/company/nexlintdigital"
+              ]
+            })
+          }}
+        />
+      </head>
+      <body className={`${inter.variable} ${poppins.variable} font-inter bg-dark-900 text-gray-200`}>
+        <Header />
+        <main>
+          {children}
+        </main>
+        <Footer />
+      </body>
+    </html>
+  )
+}

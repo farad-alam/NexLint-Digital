@@ -1,0 +1,36 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Md. Rafiqul Islam",
+      "position": "Founder & Lead Developer",
+      "bio": "5+ years of experience in web development with expertise in React, Laravel, and modern web technologies.",
+      "image": "/images/team/rafiq.jpg",
+      "skills": ["React", "Laravel", "Node.js", "SEO"]
+    },
+    {
+      "id": 2,
+      "name": "Fatima Khan",
+      "position": "UI/UX Designer",
+      "bio": "Creative designer specializing in user-centered design and modern web interfaces.",
+      "image": "/images/team/fatima.jpg",
+      "skills": ["UI/UX", "Figma", "Adobe Creative Suite", "Responsive Design"]
+    },
+    {
+      "id": 3,
+      "name": "Aminul Haque",
+      "position": "SEO Specialist",
+      "bio": "Digital marketing expert with deep knowledge of Bangladesh market and local SEO strategies.",
+      "image": "/images/team/aminul.jpg",
+      "skills": ["SEO", "Google Analytics", "Content Marketing", "Local SEO"]
+    },
+    {
+      "id": 4,
+      "name": "Sharmin Akter",
+      "position": "Project Manager",
+      "bio": "Experienced project manager ensuring timely delivery and client satisfaction on every project.",
+      "image": "/images/team/sharmin.jpg",
+      "skills": ["Project Management", "Client Relations", "Quality Assurance", "Team Leadership"]
+    }
+  ]
+}

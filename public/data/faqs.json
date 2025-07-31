@@ -1,0 +1,44 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How long does it take to build a website?",
+      "answer": "The timeline depends on the complexity of your project. A basic website takes 1-2 weeks, while a custom e-commerce site may take 4-12 weeks. We provide detailed timelines during our initial consultation."
+    },
+    {
+      "id": 2,
+      "question": "Do you provide website maintenance after launch?",
+      "answer": "Yes! We offer comprehensive maintenance packages starting from ৳5,000/month. This includes security updates, content updates, performance monitoring, and technical support."
+    },
+    {
+      "id": 3,
+      "question": "Will my website be mobile-friendly?",
+      "answer": "Absolutely! All our websites are built with a mobile-first approach, ensuring they work perfectly on smartphones, tablets, and desktops. Mobile responsiveness is included in all our packages."
+    },
+    {
+      "id": 4,
+      "question": "Can you help with SEO and digital marketing?",
+      "answer": "Yes, we offer comprehensive SEO services including keyword research, on-page optimization, technical SEO, and local SEO specifically for Bangladesh market. We also provide ongoing digital marketing support."
+    },
+    {
+      "id": 5,
+      "question": "What payment methods do you accept?",
+      "answer": "We accept bank transfers, mobile banking (bKash, Rocket, Nagad), and cash payments. We typically require 50% upfront and 50% upon project completion."
+    },
+    {
+      "id": 6,
+      "question": "Do you work with international clients?",
+      "answer": "Yes, while we're based in Rajshahi, Bangladesh, we work with clients globally. We're experienced in international payment methods and time zone coordination."
+    },
+    {
+      "id": 7,
+      "question": "Can you redesign my existing website?",
+      "answer": "Certainly! We offer website redesign services to modernize your existing site, improve performance, and enhance user experience. We can work with your current content or help create new content."
+    },
+    {
+      "id": 8,
+      "question": "What technologies do you use?",
+      "answer": "We use modern technologies including React, Next.js, WordPress, PHP/Laravel, Node.js, and various databases. We choose the best technology stack based on your specific requirements."
+    }
+  ]
+}

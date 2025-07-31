@@ -1,0 +1,79 @@
+{
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "price": "৳15,000",
+      "priceUSD": "$150",
+      "description": "Perfect for small businesses and personal websites",
+      "features": [
+        "Up to 5 pages",
+        "Responsive design",
+        "Basic SEO setup",
+        "Contact form",
+        "1 month support",
+        "Mobile optimization"
+      ],
+      "recommended": false,
+      "deliveryTime": "1-2 weeks"
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "price": "৳35,000",
+      "priceUSD": "$350",
+      "description": "Ideal for growing businesses with advanced features",
+      "features": [
+        "Up to 15 pages",
+        "Custom design",
+        "Advanced SEO optimization",
+        "Contact & inquiry forms",
+        "3 months support",
+        "Social media integration",
+        "Google Analytics setup",
+        "Performance optimization"
+      ],
+      "recommended": true,
+      "deliveryTime": "2-3 weeks"
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce",
+      "price": "৳75,000",
+      "priceUSD": "$750",
+      "description": "Complete online store solution for retail businesses",
+      "features": [
+        "Unlimited products",
+        "Payment gateway integration",
+        "Inventory management",
+        "Customer accounts",
+        "6 months support",
+        "SSL certificate",
+        "Order management",
+        "Shipping integration",
+        "Product reviews system"
+      ],
+      "recommended": false,
+      "deliveryTime": "4-6 weeks"
+    },
+    {
+      "id": "custom",
+      "name": "Custom",
+      "price": "Starting ৳100,000",
+      "priceUSD": "Starting $1,000",
+      "description": "Fully customized solutions for unique business requirements",
+      "features": [
+        "Unlimited pages & features",
+        "Custom functionality",
+        "Third-party integrations",
+        "Advanced security",
+        "12 months support",
+        "Dedicated project manager",
+        "Training & documentation",
+        "Ongoing maintenance included"
+      ],
+      "recommended": false,
+      "deliveryTime": "6-12 weeks"
+    }
+  ]
+}
