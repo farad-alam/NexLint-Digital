@@ -10,6 +10,32 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+// export const metadata = {
+//   title:
+//     "NexLint Digital - We Build Websites That Work for You | Web Development Bangladesh",
+//   description:
+//     "Professional web development services in Bangladesh. Custom websites, e-commerce solutions, SEO optimization. Get a modern website that drives results. Contact us today!",
+//   keywords:
+//     "web development Bangladesh, website design Bangladesh, responsive web design, e-commerce website, SEO optimization, Rajshahi web developer",
+//   author: "NexLint Digital",
+//   robots: "index, follow",
+//   openGraph: {
+//     title: "NexLint Digital - We Build Websites That Work for You",
+//     description:
+//       "Professional web development services in Bangladesh. Custom websites, e-commerce solutions, SEO optimization.",
+//     type: "website",
+//     url: "https://nexlint.vercel.app",
+//     image: "/og-nexlint.jpg",
+//     siteName: "NexLint Digital",
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "NexLint Digital - We Build Websites That Work for You",
+//     description: "Professional web development services in Bangladesh.",
+//     image: "/og-nexlint.jpg",
+//   },
+// };
+
 export const metadata = {
   title:
     "NexLint Digital - We Build Websites That Work for You | Web Development Bangladesh",
@@ -17,7 +43,7 @@ export const metadata = {
     "Professional web development services in Bangladesh. Custom websites, e-commerce solutions, SEO optimization. Get a modern website that drives results. Contact us today!",
   keywords:
     "web development Bangladesh, website design Bangladesh, responsive web design, e-commerce website, SEO optimization, Rajshahi web developer",
-  author: "NexLint Digital",
+  authors: [{ name: "NexLint Digital" }],
   robots: "index, follow",
   openGraph: {
     title: "NexLint Digital - We Build Websites That Work for You",
@@ -25,14 +51,21 @@ export const metadata = {
       "Professional web development services in Bangladesh. Custom websites, e-commerce solutions, SEO optimization.",
     type: "website",
     url: "https://nexlint.vercel.app",
-    image: "/og-nexlint.jpg",
+    images: [
+      {
+        url: "https://nexlint.vercel.app/og-nexlint.jpg", // ✅ FULL URL required for Open Graph
+        width: 1200,
+        height: 630,
+        alt: "NexLint Digital",
+      },
+    ],
     siteName: "NexLint Digital",
   },
   twitter: {
     card: "summary_large_image",
     title: "NexLint Digital - We Build Websites That Work for You",
     description: "Professional web development services in Bangladesh.",
-    image: "/og-nexlint.jpg",
+    images: ["https://nexlint.vercel.app/og-nexlint.jpg"],
   },
 };
 
