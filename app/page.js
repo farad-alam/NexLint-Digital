@@ -1,12 +1,19 @@
-'use client'
-import { motion } from 'framer-motion'
-import { ArrowRight, CheckCircle, Zap, Shield, Headphones, Star } from 'lucide-react'
-import Link from 'next/link'
-import ServiceCard from './components/ServiceCard'
-import ReviewCarousel from './components/ReviewCarousel'
-import CTASection from './components/CTASection'
-import servicesData from '../public/data/services.json'
-import reviewsData from '../public/data/reviews.json'
+"use client";
+import { motion } from "framer-motion";
+import {
+  ArrowRight,
+  CheckCircle,
+  Zap,
+  Shield,
+  Headphones,
+  Star,
+} from "lucide-react";
+import Link from "next/link";
+import ServiceCard from "./components/ServiceCard";
+import ReviewCarousel from "./components/ReviewCarousel";
+import CTASection from "./components/CTASection";
+import servicesData from "../public/data/services.json";
+import reviewsData from "../public/data/reviews.json";
 // import siteData from '../public/data/site.json'
 
 export default function Home() {
@@ -14,19 +21,22 @@ export default function Home() {
     {
       icon: Zap,
       title: "Lightning Fast",
-      description: "Optimized for speed with Core Web Vitals scores above 95. Your visitors won't wait."
+      description:
+        "Optimized for speed with Core Web Vitals scores above 95. Your visitors won't wait.",
     },
     {
       icon: CheckCircle,
       title: "High Converting",
-      description: "Designed to turn visitors into customers with proven UX patterns and clear calls-to-action."
+      description:
+        "Designed to turn visitors into customers with proven UX patterns and clear calls-to-action.",
     },
     {
       icon: Headphones,
       title: "Ongoing Support",
-      description: "24/7 technical support and maintenance to keep your website running smoothly."
-    }
-  ]
+      description:
+        "24/7 technical support and maintenance to keep your website running smoothly.",
+    },
+  ];
 
   return (
     <div className="pt-32">
@@ -39,7 +49,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-5xl mx-auto"
           >
-            <motion.h1 
+            <motion.h1
               className="text-5xl md:text-7xl font-bold text-white mb-6 font-poppins"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -47,39 +57,37 @@ export default function Home() {
             >
               Websites That <span className="text-gradient">Work for You</span>
             </motion.h1>
-            
-            <motion.p 
+
+            <motion.p
               className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Professional web development services in Bangladesh. We create modern, responsive websites that drive real business results.
+              Professional web development services in Bangladesh. We create
+              modern, responsive websites that drive real business results.
             </motion.p>
 
-            <motion.div 
+            <motion.div
               className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
             >
-              <Link 
+              <Link
                 href="/contact"
                 className="btn-primary flex items-center space-x-2 px-8 py-4 text-lg"
               >
                 <span>Get Your Free Quote</span>
                 <ArrowRight size={20} />
               </Link>
-              
-              <Link 
-                href="/services"
-                className="btn-outline px-8 py-4 text-lg"
-              >
+
+              <Link href="/services" className="btn-outline px-8 py-4 text-lg">
                 View Our Services
               </Link>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               className="flex flex-wrap justify-center gap-8 text-sm text-gray-400"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -115,7 +123,8 @@ export default function Home() {
               Why Choose <span className="text-gradient">NexLint Digital</span>?
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              We don't just build websites – we create digital experiences that drive your business forward.
+              We don't just build websites – we create digital experiences that
+              drive your business forward.
             </p>
           </motion.div>
 
@@ -157,7 +166,8 @@ export default function Home() {
               Our <span className="text-gradient">Services</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Comprehensive web development solutions tailored for Bangladesh businesses.
+              Comprehensive web development solutions tailored for Bangladesh
+              businesses.
             </p>
           </motion.div>
 
@@ -168,7 +178,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <Link 
+            <Link
               href="/services"
               className="btn-primary inline-flex items-center space-x-2 px-8 py-3"
             >
@@ -192,7 +202,8 @@ export default function Home() {
               What Our <span className="text-gradient">Clients Say</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Don't just take our word for it – hear from businesses we've helped grow online.
+              Don't just take our word for it – hear from businesses we've
+              helped grow online.
             </p>
           </motion.div>
 
@@ -201,11 +212,11 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <CTASection 
+      <CTASection
         title="Ready to Transform Your Online Presence?"
         description="Join 100+ satisfied clients who've grown their business with our professional web development services."
         showStats={true}
       />
     </div>
-  )
+  );
 }
