@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import { Phone, Mail, MapPin, Clock, MessageCircle, Send } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react'
 import ContactForm from '../components/ContactForm'
 import siteData from '../../public/data/site.json'
 

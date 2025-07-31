@@ -7,7 +7,7 @@ import ReviewCarousel from './components/ReviewCarousel'
 import CTASection from './components/CTASection'
 import servicesData from '../public/data/services.json'
 import reviewsData from '../public/data/reviews.json'
-import siteData from '../public/data/site.json'
+// import siteData from '../public/data/site.json'
 
 export default function Home() {
   const benefits = [

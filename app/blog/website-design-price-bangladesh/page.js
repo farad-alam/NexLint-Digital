@@ -1,7 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { Calendar, Clock, User, ArrowLeft, ArrowRight, DollarSign, CheckCircle, AlertCircle } from 'lucide-react'
+import { Calendar, Clock, User, ArrowLeft, ArrowRight, CheckCircle, AlertCircle } from 'lucide-react'
 import CTASection from '../../components/CTASection'
 
 export default function WebsiteDesignPriceBangladesh() {
